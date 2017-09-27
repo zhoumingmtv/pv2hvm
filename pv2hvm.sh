@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# Usage: ./pv2hvm.sh <source_instance_id [name_of_log]
+# Usage: ./pv2hvm.sh source_instance_id [name_of_log]
 #  Parameters:
 #    source_instance_id - instance id of the instance that to be converted
 #  Options:
-#    name_of_log - can be set to the name of the instance, set to default if not specified
+#    name_of_log - used to form log name, can be set to the name of the instance, will set to 'default' if not specified 
 
 # Warning:
 # the converted hvm instance is a clone of the source instance at the time when the script runs,
